@@ -14,4 +14,4 @@ const ageIsValid = Number.isInteger(currentAge)
 
 const randomNumber = Math.floor(Math.random() * 10) + 10
 
-const randomInteger = randomNumber.parseInt
+const randomInteger = Number.parseInt(randomNumber, 10)
